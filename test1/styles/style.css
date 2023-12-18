@@ -5,6 +5,12 @@
     width: 50%;
 }
 
-.list1{
+.msg1{
     text-align: center;
+}
+.list1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
