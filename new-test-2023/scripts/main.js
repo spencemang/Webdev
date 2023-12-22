@@ -19,6 +19,7 @@ function setUserName() {
     localStorage.setItem("name", myName)
     myHeading.textContent = `Its about to get real, ${myName}`;
 }
+}
 
 if (!localStorage.getItem("name")) {
     setUserName();
@@ -34,4 +35,5 @@ myButton.onclick = () => {
     setUserName();
 };
 
+    
 
